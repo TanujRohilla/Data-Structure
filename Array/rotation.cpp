@@ -25,7 +25,7 @@ int main() {
     for(int i=0;i<n;i++)
 	    cin>>arr[i];
 	
-    rotate(arr,d,n);
+    leftRotate(arr,d,n);
 	
     for(int i=0;i<n;i++){
 	    cout<<arr[i]<<" ";
