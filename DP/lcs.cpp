@@ -14,7 +14,7 @@ int lcs(string arr1,string arr2,int m,int n){
 }
 
 int main(){
-	int result;
+	int result;	
 	string x,y;
 	cin>>x;
 	cin>>y;
