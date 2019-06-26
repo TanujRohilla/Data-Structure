@@ -13,16 +13,14 @@ int main(){
 		}
 		else{
 			bitset<numeric_limits<ll>::digits> binary(n);
-			bitset<numeric_limits<ll>::digits> greycode(0);
 			for(i=binary.size()-1;i>=0;i--){
 				if(binary[i]!=0)
 					break;
 			}
-			greycode[i]=1;
 			for(ll j=i-1;j>=0;j--){
-				greycode[j]=binary[j+1]^binary[j];
+				binary[j]=binary[j+1]^binary[j];
 			}
-			cout<<greycode.to_ulong()<<endl;
-			}
+			cout<<binary.to_ulong()<<endl;
 		}
+	}
 }
