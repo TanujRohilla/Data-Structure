@@ -22,8 +22,7 @@ int main(){
 				if(x>=arr[i]){
 					continue;
 				}
-				else
-				{
+				else{
 					cout<<i-1;
 					flag=1;
 					break;
