@@ -30,7 +30,6 @@ void pallindrome(string str){
 				table[i][j]=true;
 				max_length=k;
 				pos=i;
-				
 			}
 		}
 	}
