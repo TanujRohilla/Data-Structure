@@ -56,6 +56,8 @@ int main() {
 	{
 		int K;
 		cin>>K;
+		
+		// initializing head ptr to NULL
 		struct Node *head = NULL;
         struct Node *temp = head;
  

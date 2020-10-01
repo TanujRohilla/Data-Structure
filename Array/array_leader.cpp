@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
 	int t;
+	// number of test cases to be run
 	cin>>t;
 	while(t--){
 		ll n,max=0,counter=0;
