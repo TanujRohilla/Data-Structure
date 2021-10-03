@@ -1,3 +1,5 @@
+// Find duplicate in array
+
 #include <bits/stdc++.h>
 using namespace std;
 
