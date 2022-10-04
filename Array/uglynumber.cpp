@@ -15,8 +15,6 @@ bool isUgly(int i){
     
 }
 int main(){
-    //stack<int> s;
-    //s.push(1);
     int n,count=0;
     cin>>n;
     int i=1;
