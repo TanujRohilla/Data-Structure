@@ -1,4 +1,4 @@
-# program to find the powerset
+# program to generate powerset of given set
 import math
 
 def powerset(set,n):
