@@ -51,7 +51,6 @@ int main() {
     root->left->right = newNode(4); 
     root->left->right->right = newNode(5); 
     root->left->right->right->right = newNode(6);  
-	//cout << "Vertical order traversal is n"; 
 	printTopView(root); 
 	return 0; 
 } 
