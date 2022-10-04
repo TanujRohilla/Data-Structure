@@ -1,3 +1,4 @@
+# program to find the powerset
 import math
 
 def powerset(set,n):
